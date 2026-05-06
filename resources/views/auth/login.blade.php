@@ -26,8 +26,8 @@
             Forgot Password?
         </a>
     </div>
-    <button type="submit" class="btn btn-primary btn-sign-in">Sign In</button>
-    {{-- <a href="#" class="mt-4 btn btn-primary btn-sign-google">
+    <button type="submit" class="btn btn-warning btn-sign-in">Sign In</button>
+    {{-- <a href="#" class="mt-4 btn btn-warning btn-sign-google">
         <i class="fab fa-google fa-fw"></i> Sign With Google
     </a> --}}
     <div class="mt-3 text-center">

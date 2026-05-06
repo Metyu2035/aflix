@@ -28,7 +28,7 @@
         <label for="InputPassword" class="form-label form-label-password">Confirm Password</label>
         <i class="fa fa-eye-slash toggle-password" id="togglePassword"></i>
     </div>
-    <button type="submit" class="btn btn-primary btn-sign-in">Register</button>
+    <button type="submit" class="btn btn-warning btn-sign-in">Register</button>
     <div class="mt-3 text-center">
         <span class="register">Already have an account? <a href="{{ route('login') }}">Login</a></span>
     </div>

@@ -9,12 +9,27 @@
     <link rel="stylesheet" href="{{ asset('assets/css/fontawesome-free/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/login.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/fontawesome-free-6.6.0-web/css/all.min.css') }}">
+    <style>
+        .btn-sign-in,
+        .btn-sign-in:focus,
+        .btn-sign-in:active {
+            background-color: #ffc107 !important;
+            color: black !important;
+            border: none;
+        }
+
+        .btn-sign-in:hover,
+        .btn-sign-in:focus:hover {
+            background-color: #ffca2c !important;
+            color: black !important;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container-fluid bg-login">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-lg-4 col-md-6 offset-md-6">
+        <div class="row justify-content-center align-items-center min-vh-100">
+            <div class="col-lg-4 col-md-6">
                 <div class="text-center">
                     <img src="{{ asset('assets/img/logo_ansek.png') }}" class="anflix-title" alt="Ansek Logo">
                     <h3 class="codeflix-sign-in">@yield('page-title')</h3>

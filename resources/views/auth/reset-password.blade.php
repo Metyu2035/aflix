@@ -21,7 +21,7 @@
         <label for="InputPassword" class="form-label form-label-password">Confirm New Password</label>
         <i class="fa fa-eye-slash toggle-password" id="togglePassword"></i>
     </div>
-    <button type="submit" class="btn btn-primary btn-sign-in">Reset Password</button>
+    <button type="submit" class="btn btn-warning btn-sign-in">Reset Password</button>
 </form>
 @endsection
 
