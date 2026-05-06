@@ -11,7 +11,7 @@
             id="InputEmail" value="{{ old('email') }}" required>
         <label for="InputEmail" class="form-label form-label-email">Email</label>
     </div>
-    <button type="submit" class="btn btn-primary btn-sign-in">Send Reset Link</button>
+    <button type="submit" class="btn btn-warning btn-sign-in">Send Reset Link</button>
     <div class="mt-3 text-center">
         <span class="register">Remember your password? <a href="{{ route('login') }}">Login</a></span>
     </div>
